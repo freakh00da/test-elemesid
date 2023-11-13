@@ -27,7 +27,7 @@ Jika Anda ingin menjalankan proyek ini secara lokal, ikuti langkah-langkah berik
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) - versi [versi yang diperlukan] atau lebih tinggi
+- [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/) atau [Yarn](https://yarnpkg.com/) - paket manajer yang digunakan dalam proyek
 
 ### Installation
@@ -35,13 +35,13 @@ Jika Anda ingin menjalankan proyek ini secara lokal, ikuti langkah-langkah berik
 1. Clone repositori:
 
    ```bash
-   git clone [URL repositori]
+   git clone [https://github.com/freakh00da/test-elemesid.git]
    ```
 
 2. Pindah ke direktori proyek:
 
    ```bash
-   cd nama-proyek-anda
+   cd test-elemesid
    ```
 
 3. Install dependensi:
@@ -72,13 +72,10 @@ yarn dev
 
 Proyek akan berjalan di [http://localhost:3000](http://localhost:3000).
 
-## Features
-
-- [Daftar fitur utama proyek ini]
 
 ## Folder Structure
 
-Penjelasan struktur folder proyek:
+Struktur folder proyek:
 
 - `/src`: Berisi kode sumber utama proyek.
 - `/public`: Berisi file statis yang akan diakses secara langsung.
