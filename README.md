@@ -8,7 +8,7 @@ Proyek "elemes-test" adalah proyek tes dari elemes id. Proyek ini dikembangkan m
 
 Anda dapat melihat live demo proyek ini di [testelemesid.vercel.app](https://testelemesid.vercel.app/).
 
-![Screenshot Live Demo](https://drive.google.com/file/d/1G0puaJ5bY1yWPI-fcE2zDzt3CGBlHnXq/view?usp=sharing)
+![Screenshot Live Demo](https://txyetwyalbsyterutgqv.supabase.co/storage/v1/object/public/screenshot/Screenshot%20from%202023-11-13%2021-26-38.png)
 
 ## Table of Contents
 
