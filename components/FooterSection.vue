@@ -1,0 +1,156 @@
+<template>
+  <footer class="py-12">
+    <div
+      class="container mx-auto grid md:grid-cols-2 lg:grid-cols-4 p-6 bg-greenThird"
+    >
+      <div class="col-span-1 md:col-span-2 lg:col-span-1 text-[#757575]">
+        <img src="~/assets/logo/elemes.svg" alt="Logo" class="mb-4 h-10" />
+        <p>
+          Jl. Prof. DR. Satrio No.7, RT.3/RW.3, Karet Kuningan,<br />
+          Kecamatan Setiabudi, Kota Jakarta Selatan,<br />
+          Daerah Khusus Ibukota Jakarta 12950
+        </p>
+        <div class="flex space-x-4 mt-4">
+          <button
+            class="hover:bg-greenPrimary hover:text-white text-greenPrimary p-2 rounded-full transition duration-300"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+              />
+            </svg>
+          </button>
+          <button
+            class="hover:bg-greenPrimary hover:text-white text-greenPrimary p-2 rounded-full transition duration-300"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+              />
+            </svg>
+          </button>
+          <button
+            class="hover:bg-greenPrimary hover:text-white text-greenPrimary p-2 rounded-full transition duration-300"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 20 20"
+              fill="none"
+              stroke="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.99992 3.87187C11.9959 3.87187 12.2326 3.87935 13.0213 3.91548C15.0471 4.00768 15.9934 4.9689 16.0856 6.97982C16.1217 7.76786 16.1286 8.00458 16.1286 10.0005C16.1286 11.9971 16.1211 12.2332 16.0856 13.0213C15.9928 15.0303 15.049 15.9934 13.0213 16.0856C12.2326 16.1217 11.9971 16.1292 9.99992 16.1292C8.00396 16.1292 7.76723 16.1217 6.97919 16.0856C4.94835 15.9928 4.00706 15.0272 3.91486 13.0206C3.87873 12.2326 3.87125 11.9965 3.87125 9.99992C3.87125 8.00396 3.87935 7.76786 3.91486 6.97919C4.00768 4.9689 4.95146 4.00706 6.97919 3.91486C7.76786 3.87935 8.00396 3.87187 9.99992 3.87187ZM9.99992 2.52441C7.9697 2.52441 7.71553 2.53314 6.91814 2.56927C4.20329 2.69386 2.69448 4.20017 2.56989 6.91752C2.53314 7.71553 2.52441 7.9697 2.52441 9.99992C2.52441 12.0301 2.53314 12.2849 2.56927 13.0823C2.69386 15.7972 4.20017 17.306 6.91752 17.4306C7.71553 17.4667 7.9697 17.4754 9.99992 17.4754C12.0301 17.4754 12.2849 17.4667 13.0823 17.4306C15.7947 17.306 17.3072 15.7997 17.4299 13.0823C17.4667 12.2849 17.4754 12.0301 17.4754 9.99992C17.4754 7.9697 17.4667 7.71553 17.4306 6.91814C17.3085 4.20578 15.8003 2.69448 13.0829 2.56989C12.2849 2.53314 12.0301 2.52441 9.99992 2.52441V2.52441ZM9.99992 6.16125C7.87999 6.16125 6.16125 7.87999 6.16125 9.99992C6.16125 12.1198 7.87999 13.8392 9.99992 13.8392C12.1198 13.8392 13.8386 12.1205 13.8386 9.99992C13.8386 7.87999 12.1198 6.16125 9.99992 6.16125ZM9.99992 12.4918C8.6238 12.4918 7.50808 11.3767 7.50808 9.99992C7.50808 8.6238 8.6238 7.50808 9.99992 7.50808C11.376 7.50808 12.4918 8.6238 12.4918 9.99992C12.4918 11.3767 11.376 12.4918 9.99992 12.4918ZM13.9906 5.11281C13.4947 5.11281 13.0929 5.51462 13.0929 6.00987C13.0929 6.50512 13.4947 6.90693 13.9906 6.90693C14.4858 6.90693 14.887 6.50512 14.887 6.00987C14.887 5.51462 14.4858 5.11281 13.9906 5.11281Z"
+                fill="#8BAC3E"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Categories -->
+      <div class="lg:col-span-1">
+        <h3 class="text-xl font-bold mb-4">Categories</h3>
+        <ul class="space-y-2 text-[#757575]">
+          <li><a href="#">Cupcake</a></li>
+          <li><a href="#">Pizza</a></li>
+          <li><a href="#">Kebab</a></li>
+          <li><a href="#">Salmon</a></li>
+          <li><a href="#">Doughnut</a></li>
+        </ul>
+      </div>
+
+      <!-- About Us -->
+      <div class="col-span-1">
+        <h3 class="text-xl font-bold mb-4">About Us</h3>
+        <ul class="space-y-2 text-[#757575]">
+          <li><a href="">About Us</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Report Problem</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-span-1">
+        <h3 class="text-xl font-bold mb-4">Newsletter</h3>
+        <p class="mb-4 text-[#757575]">
+          Get now free 50% discount for all products on your first order.
+        </p>
+        <div class="flex mb-4">
+          <input
+            type="email"
+            placeholder="Your email address"
+            class="border p-2 w-full"
+          />
+          <button
+            class="bg-greenPrimary text-white px-4 py-2 rounded-s-none rounded-lg"
+          >
+            Send
+          </button>
+        </div>
+        <p class="flex items-center text-textBlack mb-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 mr-1"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+            />
+          </svg>
+          elemesid@gmail.com
+        </p>
+        <p class="flex items-center text-textBlack">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 mr-1"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+            />
+          </svg>
+          0888 1111 2222
+        </p>
+      </div>
+    </div>
+    <footer class="text-center text-[#757575] text-sm py-4">
+      &copy; 2021 Elemes id. All rights reserved.
+    </footer>
+  </footer>
+</template>
+
+<script>
+export default {}
+</script>
+
+<style scoped></style>
