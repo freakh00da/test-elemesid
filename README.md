@@ -1,68 +1,86 @@
-# elemes-test
+# Documentation for Project "Test Frontend Elemes.id"
 
-## Build Setup
+## Overview
+
+Proyek "elemes-test" adalah proyek tes dari elemes id. Proyek ini dikembangkan menggunakan nuxtjs,tailwindcss.
+
+## Live Demo
+
+Anda dapat melihat live demo proyek ini di [testelemesid.vercel.app](https://testelemesid.vercel.app/).
+
+![Screenshot Live Demo](https://drive.google.com/file/d/1G0puaJ5bY1yWPI-fcE2zDzt3CGBlHnXq/view?usp=sharing)
+
+## Table of Contents
+
+1. [Getting Started](#getting-started)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Features](#features)
+5. [Folder Structure](#folder-structure)
+6. [Dependencies](#dependencies)
+7. [Contributing](#contributing)
+8. [License](#license)
+
+## Getting Started
+
+Jika Anda ingin menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) - versi [versi yang diperlukan] atau lebih tinggi
+- [npm](https://www.npmjs.com/) atau [Yarn](https://yarnpkg.com/) - paket manajer yang digunakan dalam proyek
+
+### Installation
+
+1. Clone repositori:
+
+   ```bash
+   git clone [URL repositori]
+   ```
+
+2. Pindah ke direktori proyek:
+
+   ```bash
+   cd nama-proyek-anda
+   ```
+
+3. Install dependensi:
+
+   ```bash
+   npm install
+   ```
+
+   atau
+
+   ```bash
+   yarn install
+   ```
+
+## Usage
+
+Jalankan proyek secara lokal:
 
 ```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+npm run dev
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+atau
 
-## Special Directories
+```bash
+yarn dev
+```
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+Proyek akan berjalan di [http://localhost:3000](http://localhost:3000).
 
-### `assets`
+## Features
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+- [Daftar fitur utama proyek ini]
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+## Folder Structure
 
-### `components`
+Penjelasan struktur folder proyek:
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+- `/src`: Berisi kode sumber utama proyek.
+- `/public`: Berisi file statis yang akan diakses secara langsung.
+- `/components`: Komponen Vue.js yang digunakan di seluruh proyek.
+- `/pages`: Halaman Vue.js yang mewakili rute aplikasi.
