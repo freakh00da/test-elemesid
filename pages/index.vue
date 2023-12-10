@@ -110,6 +110,7 @@ export default {
     },
   },
 }
+// tambahan disini
 </script>
 
 <style scoped></style>
