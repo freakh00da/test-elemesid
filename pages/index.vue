@@ -110,7 +110,7 @@ export default {
     },
   },
 }
-// tambahan disini
+// tambahan disini test kedua
 </script>
 
 <style scoped></style>
